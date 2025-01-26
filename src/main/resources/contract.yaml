@@ -1,0 +1,30 @@
+openapi: 3.0.0
+info:
+  title: ServiceEntry API
+  version: 1.0.0
+paths:
+  /service-entry:
+    post:
+      summary: Create a ServiceEntry
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ServiceEntryRequest'
+      responses:
+        '200':
+          description: ServiceEntry created successfully
+components:
+  schemas:
+    ServiceEntryRequest:
+      type: object
+      properties:
+        name:
+          type: string
+        host:
+          type: string
+        port:
+          type: integer
+        protocol:
+          type: string

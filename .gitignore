@@ -1,0 +1,178 @@
+# Ignore all files in the root except for specific ones
+/*
+!.gitignore
+!.mvn/
+!mvnw*
+!pom.xml
+!src/
+
+# Maven
+**/target/
+**/.mvn/
+**/mvnw
+**/mvnw.cmd
+**/pom.xml.asc
+**/pom.xml.releaseBackup
+**/release.properties
+
+# Gradle
+.gradle/
+**/build/
+**/.gradle/
+**/gradle/
+**/gradlew
+**/gradlew.bat
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*.classpath
+*.project
+*.settings/
+.vscode/
+.DS_Store
+*.launch
+bin/
+**/.metadata/
+**/*.log
+**/*.tmp
+
+# Logs
+logs/
+*.log
+**/logs/
+**/*.log.*
+
+# Dependency directories
+**/lib/
+**/libs/
+
+# Spring Boot
+**/application.properties
+**/application.yml
+**/application-*.properties
+**/application-*.yml
+**/spring-boot-devtools.properties
+
+# Compiled class files
+**/*.class
+
+# Package files
+**/*.jar
+**/*.war
+**/*.ear
+**/*.zip
+**/*.tar.gz
+**/*.rar
+
+# Local configuration files
+**/.env
+**/.env.local
+**/.env.development
+**/.env.test
+**/.env.production
+
+# Docker
+**/docker-compose.yml
+**/Dockerfile
+**/.dockerignore
+
+# Kubernetes
+**/k8s/
+**/kubernetes/
+
+# Node.js (if applicable)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IntelliJ IDEA
+out/
+.idea_modules/
+*.eml
+*.log
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.log
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*.classpath
+*.project
+*.settings/
+.vscode/
+.DS_Store
+*.launch
+bin/
+**/.metadata/
+**/*.log
+**/*.tmp
+
+# Eclipse
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+
+# NetBeans
+nbproject/
+nbactions.xml
+nb-configuration.xml
+
+# Visual Studio Code
+.vscode/
+
+# System Files
+*.swp
+*.swo
+*~
+*.bak
+*.class
+*.log
+*.lock
+*.DS_Store
+*.idea
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*.classpath
+*.project
+*.settings/
+.vscode/
+.DS_Store
+*.launch
+bin/
+**/.metadata/
+**/*.log
+**/*.tmp
+
+# Custom files (add your own rules here)
+.env
